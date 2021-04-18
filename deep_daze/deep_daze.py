@@ -160,7 +160,7 @@ class DeepDaze(nn.Module):
             dim_in=2,
             dim_hidden=hidden_size,
             num_layers=num_layers,
-            dim_out=3,
+            dim_out=1,
             use_bias=True,
             w0=w0,
             w0_initial=w0_initial
